@@ -119,8 +119,6 @@ public class Login extends javax.swing.JFrame {
         lbeno.setBounds(90, 30, 200, 20);
         jPanel2.add(txteno);
         txteno.setBounds(290, 20, 200, 30);
-
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Projects\\HotelManagement\\test\\user-login-icon.png")); // NOI18N
         jPanel2.add(jLabel2);
         jLabel2.setBounds(190, 20, 280, 290);
 

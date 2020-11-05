@@ -153,8 +153,6 @@ public class Dashboard extends javax.swing.JFrame {
             .addGap(0, 208, Short.MAX_VALUE)
         );
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Projects\\HotelManagement\\test\\images7 (4).jpeg")); // NOI18N
-
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -203,7 +201,7 @@ public class Dashboard extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
+                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -249,7 +247,7 @@ public class Dashboard extends javax.swing.JFrame {
 
     private void btnaccommodationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaccommodationActionPerformed
         // TODO add your handling code here:
-        this.setVisible(false);
+        this.dispose(); 
         new Accommodatiocontrol().setVisible(true);
     }//GEN-LAST:event_btnaccommodationActionPerformed
 
